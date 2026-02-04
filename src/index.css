@@ -1,91 +1,88 @@
-/* RESET BASE*/
+/* RESET BASE */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* FONT + BODY*/
+/* FONT GLOBALE */
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   color: #1c1c1c;
 }
 
-/* ELEMENTI BASE*/
+/* LINK */
 a {
   text-decoration: none;
   color: inherit;
 }
 
+/* LISTE */
 ul {
   list-style: none;
 }
 
+/* IMMAGINI */
 img {
   max-width: 100%;
   display: block;
 }
 
-/*CONTAINER GENERICO */
+/* CONTAINER */
 .container {
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
-/*HEADER*/
+/* =======================
+   HEADER
+======================= */
 header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+  background-color: white;
 }
 
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 90px;
 }
 
-/* LOGO */
-header img {
-  height: 60px;
-}
-
-/* MENU */
 header nav ul {
   display: flex;
   gap: 20px;
-}
-
-header nav li {
   font-size: 14px;
   font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
-  position: relative;
-  padding: 35px 0;
 }
 
-header nav li:hover {
-  color: #0282f9;
+/* =======================
+   JUMBOTRON
+======================= */
+.jumbotron {
+  height: 300px;
+  background-image: url('./assets/img/jumbotron.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-/* MAIN (JUMBOTRON)*/
+/* =======================
+   MAIN
+======================= */
 main {
   background-color: #1c1c1c;
-  color: #ffffff;
+  color: white;
   padding: 40px 0;
+  font-size: 18px;
 }
 
-main .container {
-  min-height: 200px;
-}
-
-/* BLUE STRIP*/
+/* =======================
+   BLUE STRIP
+======================= */
 .blue-strip {
   background-color: #0282f9;
-  padding: 30px 0;
+  color: white;
+  padding: 40px 0;
 }
 
 .blue-strip ul {
@@ -98,25 +95,14 @@ main .container {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: white;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
-.blue-strip img {
-  height: 40px;
-}
-
-/* FOOTER*/
+/* =======================
+   FOOTER
+======================= */
 footer {
-  background-image: url("/src/assets/img/footer-bg.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #303030;
   color: white;
   padding: 40px 0;
-}
-
-footer .container {
-  display: flex;
-  justify-content: space-between;
 }

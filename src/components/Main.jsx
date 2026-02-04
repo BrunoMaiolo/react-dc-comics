@@ -1,8 +1,8 @@
 function Main() {
   return (
     <main>
-      <div>
-        {"--> Content goes here <--"}
+      <div className="container">
+        --&gt; Content goes here &lt;--
       </div>
     </main>
   );
