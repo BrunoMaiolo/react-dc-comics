@@ -133,3 +133,52 @@ footer {
   width: 40px;
   height: auto;
 }
+
+
+/* FOOTER*/
+
+footer {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* --- FOOTER TOP --- */
+.footer-top {
+  background-image: url("/src/assets/img/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-top .container {
+  background-image: url("/src/assets/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 40px 0;
+}
+
+/* colonne */
+.footer-columns {
+  display: flex;
+  gap: 40px;
+}
+
+/* titoli */
+.footer-top h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* liste */
+.footer-top ul {
+  margin-bottom: 20px;
+}
+
+.footer-top li {
+  color: #959595;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer-top li:hover {
+  color: #fff;
+}
