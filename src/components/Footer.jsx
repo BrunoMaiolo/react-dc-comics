@@ -55,12 +55,18 @@ function Footer() {
         </div>
       </div>
 
+      {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <div className="container footer-bottom-content">
-          <button>SIGN-UP NOW!</button>
+          <button className="signup-btn">SIGN-UP NOW!</button>
 
           <div className="social">
             <span>FOLLOW US</span>
+            <img src="/src/assets/img/footer-facebook.png" alt="facebook" />
+            <img src="/src/assets/img/footer-twitter.png" alt="twitter" />
+            <img src="/src/assets/img/footer-youtube.png" alt="youtube" />
+            <img src="/src/assets/img/footer-pinterest.png" alt="pinterest" />
+            <img src="/src/assets/img/footer-periscope.png" alt="periscope" />
           </div>
         </div>
       </div>
