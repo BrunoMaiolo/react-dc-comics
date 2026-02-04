@@ -1,7 +1,9 @@
 function Header() {
   return (
-    <header>
-      <h1>DC</h1>
+    <header className="header">
+      <div className="container header-inner">
+        <img src="/src/assets/img/dc-logo.png" alt="DC Logo" className="logo" />
+      
       <nav>
         <ul>
           <li>Characters</li>
@@ -16,6 +18,7 @@ function Header() {
           <li>Shop</li>
         </ul>
       </nav>
+      </div>
     </header>
   );
 }
