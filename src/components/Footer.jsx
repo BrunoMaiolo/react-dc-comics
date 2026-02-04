@@ -62,11 +62,11 @@ function Footer() {
 
           <div className="social">
             <span>FOLLOW US</span>
-            <img src="/src/assets/img/footer-facebook.png" alt="facebook" />
-            <img src="/src/assets/img/footer-twitter.png" alt="twitter" />
-            <img src="/src/assets/img/footer-youtube.png" alt="youtube" />
-            <img src="/src/assets/img/footer-pinterest.png" alt="pinterest" />
-            <img src="/src/assets/img/footer-periscope.png" alt="periscope" />
+            <img src="/img/footer-facebook.png" alt="facebook" />
+            <img src="/img/footer-twitter.png" alt="twitter" />
+            <img src="/img/footer-youtube.png" alt="youtube" />
+            <img src="/img/footer-pinterest.png" alt="pinterest" />
+            <img src="/img/footer-periscope.png" alt="periscope" />
           </div>
         </div>
       </div>
