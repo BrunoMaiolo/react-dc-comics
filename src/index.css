@@ -144,13 +144,13 @@ footer {
 
 /* --- FOOTER TOP --- */
 .footer-top {
-  background-image: url("/src/assets/img/footer-bg.jpg");
+  background-image: url("/img/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .footer-top .container {
-  background-image: url("/src/assets/img/dc-logo-bg.png");
+  background-image: url("/img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right center;
   padding: 40px 0;
