@@ -1,73 +1,50 @@
+import footerLinks from "../assets/footerLinks";
+
 function Footer() {
   return (
     <footer>
 
+      {/* FOOTER TOP */}
       <div className="footer-top">
         <div className="container">
           <div className="footer-columns">
-            <div>
-              <h4>DC COMICS</h4>
-              <ul>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Games</li>
-                <li>Videos</li>
-                <li>News</li>
-              </ul>
 
-              <h4>SHOP</h4>
-              <ul>
-                <li>Shop DC</li>
-                <li>Shop DC Collectibles</li>
-              </ul>
-            </div>
+            {footerLinks.map((column, index) => (
+              <div key={index}>
 
-            <div>
-              <h4>DC</h4>
-              <ul>
-                <li>Terms Of Use</li>
-                <li>Privacy policy</li>
-                <li>Ad Choices</li>
-                <li>Advertising</li>
-                <li>Jobs</li>
-                <li>Subscriptions</li>
-                <li>Talent Workshops</li>
-                <li>CPSC Certificates</li>
-                <li>Ratings</li>
-                <li>Shop Help</li>
-                <li>Contact Us</li>
-              </ul>
-            </div>
+                <h4>{column.title}</h4>
 
-            <div>
-              <h4>SITES</h4>
-              <ul>
-                <li>DC</li>
-                <li>MAD Magazine</li>
-                <li>DC Kids</li>
-                <li>DC Universe</li>
-                <li>DC Power Visa</li>
-              </ul>
-            </div>
+                <ul>
+                  {column.links.map((link, i) => (
+                    <li key={i}>{link}</li>
+                  ))}
+                </ul>
+
+              </div>
+            ))}
+
           </div>
         </div>
       </div>
 
+
       {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <div className="container footer-bottom-content">
+
           <button className="signup-btn">SIGN-UP NOW!</button>
 
           <div className="social">
             <span>FOLLOW US</span>
+
             <img src="/img/footer-facebook.png" alt="facebook" />
             <img src="/img/footer-twitter.png" alt="twitter" />
             <img src="/img/footer-youtube.png" alt="youtube" />
             <img src="/img/footer-pinterest.png" alt="pinterest" />
             <img src="/img/footer-periscope.png" alt="periscope" />
+
           </div>
+
         </div>
       </div>
 
