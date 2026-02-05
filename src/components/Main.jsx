@@ -3,6 +3,7 @@ import comics from "../assets/comics";
 function Main() {
   return (
     <main>
+      <div className="jumbotron"></div>
       <section className="comics">
         <div className="container comics-grid">
 
