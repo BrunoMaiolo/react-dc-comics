@@ -221,3 +221,37 @@ footer {
   width: 30px;
   cursor: pointer;
 }
+
+
+
+/* PARTE 2*/
+
+/*Comics GRID*/
+
+.comics {
+  background-color: #1c1c1c;
+  padding: 50px 0;
+}
+
+.comics-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.comic-card {
+  text-align: center;
+  color: white;
+}
+
+.comic-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.comic-card h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
