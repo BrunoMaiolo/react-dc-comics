@@ -1,3 +1,5 @@
+
+import ComicCard from "./ComicsCard";
 import comics from "../assets/comics";
 
 function Main() {
