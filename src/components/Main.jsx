@@ -10,13 +10,7 @@ function Main() {
         <div className="container comics-grid">
 
           {comics.map((comic, index) => (
-            <div key={index} className="comic-card">
-
-              <img src={comic.thumb} alt={comic.series} />
-
-              <h4>{comic.series}</h4>
-
-            </div>
+            <ComicCard key={index} comic={comic} />
           ))}
 
         </div>
